@@ -1,4 +1,4 @@
-# Chorme-Extension
+# Chrome-Extension
 ## How to use
 1. git clone this repository
 2. unzip turotial.websockets file
