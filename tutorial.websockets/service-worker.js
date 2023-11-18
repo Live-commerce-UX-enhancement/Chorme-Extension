@@ -24,7 +24,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 
 function connect() {
-  webSocket = new WebSocket('ws://18.141.54.174:8001/ws/' + broadcastId);
+  webSocket = new WebSocket('ws://{자동 답변 생성 프로젝트의 EC2 인스턴스 주소}/ws/' + broadcastId);
 
   webSocket.onopen = (event) => {
     chrome.action.setIcon({ path: 'icons/socket-active.png' });
